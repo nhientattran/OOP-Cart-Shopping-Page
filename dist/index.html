@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="./main.css">
+<script src="./bundle.js" defer></script>
+<title>Week 8 Weekend Project</title>
+</head>
+<body>
+    <h1 class="text-center">Welcome to CT Shopping Center</h1>
+    <h3 class="text-center">Log In Here:</h3>
+    <div class="container">
+        <div class="row">
+            <form name="login" id="login" class="text-center" onsubmit="return false;">
+                <input class="form-control" type="text" name="user-name" id="user-name" placeholder="Enter Your Name Here">
+                <input class="form-control" type="text" name="user-age" id="user-age" placeholder="Enter Your Age Here">
+                <button class="btn btn-primary mx-3" id="submit-button">Submit</button>
+            </form>
+        </div>
+        <div class="row" id="add-item-form">
+            <form name="add-item" id="add-item" class="text-center" onsubmit="return false;">
+                <input type="text" id="item-name" name="item-name" class="form-control" placeholder="Enter Item's Name To Add">
+                <input type="text" id="item-quantity" name="item-quantity" class="form-control" placeholder="Enter Item's Quantity">
+                
+                <button class="btn btn-primary mx-3">Add Item</button>
+            </form>
+        </div>
+        <div id="shop">
+
+        </div>
+        <div class="cart-area list-group mt-3">
+            <h2>Your Cart:
+                <div id="cart">
+                    
+                </div>
+            </h2>
+        </div>
+    </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+input{
+    margin-bottom: 5px;
+
+}
+
+body {
+    background-color:beige
+}
+
+#add-item-form{
+    display: none;
+}
